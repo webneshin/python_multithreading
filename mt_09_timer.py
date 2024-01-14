@@ -7,10 +7,11 @@ from threading import Timer
 نکته ای که باید دقت کنید این است که این زمان دقیق نبوده و ممکن است کمتر یا بیشتر شود.
 """
 
+
 def slow():
     print("Hi Webneshin!!")
 
 
-t = Timer(5,slow)
+t = Timer(5, slow)
 
 t.start()

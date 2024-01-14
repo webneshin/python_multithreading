@@ -30,7 +30,7 @@ def add():
     with lock:
         for _ in range(10000000):
             num += 1
-        a = 1 / 0
+
 
 
 def subtract():
